@@ -14,7 +14,7 @@ import com.ubaya.adv160421082week6.viewmodel.ListViewModel
 
 class ComputerListFragment : Fragment() {
     private lateinit var viewModel:ListViewModel
-    private val studentListAdapter  = ComputerListAdapter(arrayListOf())
+    private val computerListAdapter  = ComputerListAdapter(arrayListOf())
     private lateinit var binding:FragmentComputerListBinding
 
     override fun onCreateView(
@@ -32,7 +32,7 @@ class ComputerListFragment : Fragment() {
         viewModel.refresh()
 
         binding.recView.layoutManager = LinearLayoutManager(context)
-        binding.recView.adapter = studentListAdapter
+        binding.recView.adapter = computerListAdapter
 
         observeViewModel()
 
@@ -48,7 +48,7 @@ class ComputerListFragment : Fragment() {
 
     private fun observeViewModel() {
         viewModel.computerLD.observe(viewLifecycleOwner, Observer {
-            studentListAdapter.updateComputerList(it)
+            computerListAdapter.updateComputerList(it)
         })
         viewModel.computerLoadErrorLD.observe(viewLifecycleOwner, Observer {
             if(it == true) {

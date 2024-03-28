@@ -24,7 +24,7 @@ class ListViewModel (application: Application) : AndroidViewModel(application){
         computerLoadErrorLD.value = false
 
         queue = Volley.newRequestQueue(getApplication())
-        val url = "http://localhost/computer.json"
+        val url = "https://icfubaya2023.com/computer" //ga bisa buka json nya pakai localhost.
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,

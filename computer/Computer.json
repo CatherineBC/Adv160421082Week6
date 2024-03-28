@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Computer A",
+    "brand": "HP",
+    "processor": "Intel Core i5",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "NVIDIA GeForce GTX 1050",
+    "screenSize": "15.6 inches",
+    "operatingSystem": "Windows 10",
+    "price": "$800"
+  },
+  {
+    "id": 2,
+    "name": "Computer B",
+    "brand": "Dell",
+    "processor": "AMD Ryzen 7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD Radeon RX 580",
+    "screenSize": "17 inches",
+    "operatingSystem": "Windows 11",
+    "price": "$1200"
+  },
+  {
+    "id": 3,
+    "name": "Computer C",
+    "brand": "Lenovo",
+    "processor": "Intel Core i7",
+    "ram": "12GB",
+    "storage": "1TB HDD",
+    "graphics": "Intel UHD Graphics",
+    "screenSize": "14 inches",
+    "operatingSystem": "Windows 10",
+    "price": "$1000"
+  },
+  {
+    "id": 4,
+    "name": "Computer D",
+    "brand": "Apple",
+    "processor": "Apple M1",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "graphics": "Apple M1 GPU",
+    "screenSize": "13.3 inches",
+    "operatingSystem": "macOS Monterey",
+    "price": "$1500"
+  },
+  {
+    "id": 5,
+    "name": "Computer E",
+    "brand": "Asus",
+    "processor": "Intel Core i9",
+    "ram": "32GB",
+    "storage": "1TB SSD",
+    "graphics": "NVIDIA GeForce RTX 3080",
+    "screenSize": "15.6 inches",
+    "operatingSystem": "Windows 10",
+    "price": "$2500"
+  },
+  {
+    "id": 6,
+    "name": "Computer F",
+    "brand": "Acer",
+    "processor": "AMD Ryzen 5",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD Radeon RX 5600M",
+    "screenSize": "15.6 inches",
+    "operatingSystem": "Windows 10",
+    "price": "$900"
+  },
+  {
+    "id": 7,
+    "name": "Computer G",
+    "brand": "MSI",
+    "processor": "Intel Core i5",
+    "ram": "16GB",
+    "storage": "1TB HDD + 256GB SSD",
+    "graphics": "NVIDIA GeForce GTX 1660 Ti",
+    "screenSize": "17.3 inches",
+    "operatingSystem": "Windows 10",
+    "price": "$1300"
+  },
+  {
+    "id": 8,
+    "name": "Computer H",
+    "brand": "HP",
+    "processor": "AMD Ryzen 9",
+    "ram": "32GB",
+    "storage": "2TB SSD",
+    "graphics": "NVIDIA GeForce RTX 3070",
+    "screenSize": "15.6 inches",
+    "operatingSystem": "Windows 11",
+    "price": "$2000"
+  },
+  {
+    "id": 9,
+    "name": "Computer I",
+    "brand": "Dell",
+    "processor": "Intel Core i7",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "graphics": "NVIDIA GeForce GTX 1660 Super",
+    "screenSize": "15.6 inches",
+    "operatingSystem": "Windows 10",
+    "price": "$1500"
+  },
+  {
+    "id": 10,
+    "name": "Computer J",
+    "brand": "Lenovo",
+    "processor": "AMD Ryzen 5",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "graphics": "AMD Radeon RX 5500XT",
+    "screenSize": "14 inches",
+    "operatingSystem": "Windows 10",
+    "price": "$900"
+  }
+]
